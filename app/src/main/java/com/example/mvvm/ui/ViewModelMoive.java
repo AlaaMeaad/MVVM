@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel;
 public class ViewModelMoive extends ViewModel {
 
 //    LiveData <String> liveData ;
-    MutableLiveData<String> mutableLiveData = new MutableLiveData<>();
+   public MutableLiveData<String> mutableLiveData = new MutableLiveData<>();
 
     public void  getMovieName(){
         String namee = moiveModeldatabase().getName();
